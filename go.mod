@@ -18,7 +18,7 @@ require (
 	github.com/fluxcd/pkg/git v0.8.0
 	github.com/fluxcd/pkg/git/gogit v0.5.0
 	github.com/fluxcd/pkg/kustomize v0.13.0
-	github.com/fluxcd/pkg/oci v0.18.0
+	github.com/fluxcd/pkg/oci v0.18.1-0.20230209181336-0ac4ba12602c
 	github.com/fluxcd/pkg/runtime v0.27.0
 	github.com/fluxcd/pkg/sourceignore v0.3.0
 	github.com/fluxcd/pkg/ssa v0.23.0
