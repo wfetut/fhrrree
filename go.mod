@@ -18,7 +18,7 @@ require (
 	github.com/fluxcd/pkg/git v0.8.0
 	github.com/fluxcd/pkg/git/gogit v0.5.0
 	github.com/fluxcd/pkg/kustomize v0.13.0
-	github.com/fluxcd/pkg/oci v0.18.0
+	github.com/fluxcd/pkg/oci v0.18.1-0.20230209181336-0ac4ba12602c
 	github.com/fluxcd/pkg/runtime v0.27.0
 	github.com/fluxcd/pkg/sourceignore v0.3.0
 	github.com/fluxcd/pkg/ssa v0.23.0
@@ -54,9 +54,6 @@ require (
 	sigs.k8s.io/kustomize/kyaml v0.13.9
 	sigs.k8s.io/yaml v1.3.0
 )
-
-// Fix CVE-2022-32149
-replace golang.org/x/text => golang.org/x/text v0.4.0
 
 // Fix CVE-2022-28948
 replace gopkg.in/yaml.v3 => gopkg.in/yaml.v3 v3.0.1
